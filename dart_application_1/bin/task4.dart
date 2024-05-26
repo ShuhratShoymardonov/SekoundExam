@@ -1,5 +1,10 @@
-void main(List<String> args) {
+
+void main(List args) {
   String s = "hello";
-  var a = s.split('').reversed.join('');
-  print(a);
+  String reve = rev(s);
+  print(reve); 
+}
+
+String rev(String s) {
+  return s.split('').reversed.join('');
 }
